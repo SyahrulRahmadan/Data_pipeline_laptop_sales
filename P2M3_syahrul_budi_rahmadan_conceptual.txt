@@ -1,0 +1,26 @@
+Jawab pertanyaan berikut dengan menggunakan kalimat Anda sendiri:
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+NoSQL (Not Only SQL) adalah sekelompok data pada sistem database yang tidak mengikuti model relasi yang biasanya kita temui
+dalam database SQL seperti biasanya. NoSQL sangatlah acak tetapi banyak digunakan sehingga lebih reliable dalam penggunaan database
+
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+Kapan harus menggunakan NoSQL atau Relational Database Management System (RDBMS) bergantung pada berbagai faktor, dan pilihan ini harus dipertimbangkan dengan cermat sesuai dengan kebutuhan project. 
+Dalam kasus ini sangat disarankan untuk menggunakan RDBMS ketika data konsisten, skema data tetap tidak berubah ubah, dan transactions related.
+Tetapi ginakan NoSQL ketika data sangat flexibel, skalabilitas sangat tinggi, model data terdistribusi, dan kinerja yang diperlukan sangat tinggi
+
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+- MongoDB dengan keunggulan Dokumen-oriented, skalabilitas tinggi, indeks cepat, skema yang flexibel, dan big data
+- Cassandra dengan keunggulan fault tolerant yang tinggi, distributed NoSQL database, Skalabilitas linier, dan model data yang berorientasi berdasarkan kolom
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+Airflow adalah program yang dimana dapat memanage alur kerja dari suatu data engineer structur yang dimana dapat mengautomasikan dan mengelolah alur kerja data dan tugas tugas yang telah kita buat. Airflow memungkinkan pengguna untuk mendefinisikan, menjadwalkan, dan menjalankan tugas-tugas yang kompleks secara terstruktur, mempermudah otomatisasi proses data dan pengelolaan alur kerja.
+
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+Great Expectations adalah sebuah alat yang memungkinkan untuk mengelola dan mengvalidasikan kualitas dataset yang kita dapat. Tujuannya adalah untuk membantu organisasi menjaga keakuratan dan kualitas data, meminimalkan risiko, dan mempercepat pengembangan dan pemeliharaan proyek data.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+Batch processing merupakan metode pengolahan data di mana sejumlah besar data dikumpulkan, diproses, dan menghasilkan hasilnya dalam satu kelompok atau batch. Proses ini terjadi tanpa melibatkan interaksi langsung dengan pengguna atau input real-time. Secara umum, data dikumpulkan selama suatu periode waktu tertentu dan kemudian diproses secara bersamaan/simultan.
