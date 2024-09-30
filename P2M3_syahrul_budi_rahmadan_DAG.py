@@ -126,5 +126,5 @@ with DAG('Milestone_Dag_Every_630_morning', default_args = default_args,
     # Task 3 push to elastic-kibana
     pushtoelastic = PythonOperator(task_id='pushtoelastic', python_callable=posgretoElasticSearch)
 
-# The process will start from Fetchfromposgres -> cleaningdata -> pushtoelastic
+# The process will start from Fetchfromposgres -> cleaningdata -> pushtoelastic and also testing it
 Fetchfromposgres >> cleaningdata >> pushtoelastic
